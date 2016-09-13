@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "Smoke suite" verbose = "1">
+	<test name = "Smoke Test">
+		<classes>
+			<class name = "com.app.smoketests.quickTests"/>
+		</classes>
+	</test>
+<listeners>
+       <listener class-name="com.app.listeners.TestListener"/>
+  </listeners>
+</suite>
